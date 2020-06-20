@@ -22,5 +22,4 @@ python pyCodeIndent.py myCode.py
 Formatted code is written to myCode_ind.py
 
 **Limitations**\
-- If indentation hints are not properly formatted, it does not show where the issue is.\
 - It can only process one file at a time.
