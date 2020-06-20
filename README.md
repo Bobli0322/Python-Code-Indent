@@ -13,10 +13,13 @@ if a == 0:#{0
 ```
 For comments to be ignored use '##'
 
-For more examples please look in pyCodeIndent.py.
+For more examples of indentation hints please look in pyCodeIndent.py.
 
 Use this script by the following command:
 
 python pyCodeIndent.py myCode.py
 
 It can only process one file at a time.
+
+**Limitations**\
+- If indentation hints are not properly formatted, it does not show where the issue is.
