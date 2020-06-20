@@ -1,7 +1,7 @@
 # Python-Code-Indent
 Automatically fix indentation in Python code
 
-Program code must provide indentation hints formatted as following:
+For this to work program code must provide indentation hints formatted as following:
 ```python
 if a == 0:#{0 
     pass
@@ -19,7 +19,8 @@ Use this script by the following command:
 
 python pyCodeIndent.py myCode.py
 
-It can only process one file at a time.
+Formatted code is written to myCode_ind.py
 
 **Limitations**\
-- If indentation hints are not properly formatted, it does not show where the issue is.
+- If indentation hints are not properly formatted, it does not show where the issue is.\
+- It can only process one file at a time.
